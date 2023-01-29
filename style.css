@@ -1,0 +1,143 @@
+body{
+    margin: 0px; /*establece el área de margen en los cuatro lados de un elemento*/
+    padding: 0px;/*area de relleno*/
+    background-color:#E5E5E5;/*color de fondo*/
+}
+
+.contenedor{
+    margin-top: 100px;  /*establece el área de margen en los cuatro lados de un elemento*/
+    margin-left: 500px;
+    width: 1440px;  /*ancho del contenedor*/
+    height: 1024px; /*alto del contenedor*/
+    padding: 60px;  /*area de relleno*/
+    background-color: #F3F5FC; /*color de fondo*/   
+}
+
+.logo{
+    width: 100%; /*ancho del logo*/
+    float: left; /*sobre pone el logo en la parte izquierda*/
+    margin-top: 10px;
+    
+}
+
+.imagen-logo{
+    margin-top: 1%; /*margen superior*/
+    margin-left: 5%;/*margen izquierda*/
+    float: inherit;
+}
+
+.titulo{
+    float: inherit;
+    margin-left: 25%;
+    color: #0A3871;
+    font-size: 40px;
+}
+
+.conten-izquierdo{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+#texto1{
+    float: left;
+    margin-left: 240px;
+    margin-top: 168px;
+    width: 577px;
+    height: 48px;
+    color: #0A3871;
+    font-size: 32px; /*tamaño de letra*/
+    border: none;  /* sin bordes del input*/
+    outline: none; /* sin bordes del input al seleccionarlo*/
+    background: #F3F5FC;
+}
+
+.conten-derecho{
+    float: right;
+    width: 400px;
+    height: 900px;
+    left: 1000px;
+    border-radius: 32px;
+    background: #FFFFFF;
+
+}
+
+#imagen-decorativa{
+    margin-top: 100px;
+    width: 80%;
+    height: auto;
+    margin-left: 50px;
+}
+
+#mensaje{
+    text-align: center;
+    color: #3e3f40;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#texto2{
+    text-align: center;
+    float: left;
+    margin-left: 10%;
+    margin: 10%;
+    width: 80%;
+    height: 24%;
+    color: #3e3f40;
+    font-size: 20px; /*tamaño de letra*/
+    border: none;  /* sin bordes del input*/
+    outline: none; /* sin bordes del input al seleccionarlo*/
+    background: #FFFFFF;
+}
+
+.botones{
+    margin-top: 550px;
+    float: left;
+    width: 70%;
+    height: auto;
+    font-size: 34px;
+}
+
+.botones p{
+    font-size: 20px;
+    opacity: 80%;
+    margin-left: 18%;
+}
+
+#btnEncriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 20px;
+    background: #0A3871;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: 18%;
+}
+
+#btnDesencriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 20px;
+    background: #D8DFE8;
+    color: #0A3871;
+    border:solid;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+#btnCopiar{
+    display: none;
+    margin-top: 90px;
+    width: 328px;
+    height: auto;
+    border-radius: 24px;
+    padding: 20px;
+    background: #0A3871;
+    color: #FFFFFF;
+    border:solid;
+    margin-left: 10%;
+    font-size: 20px;
+}
